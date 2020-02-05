@@ -1,0 +1,6 @@
+a=list(map(int,input().rstrip().split()))
+for i in a:
+    if i==max(a):
+        print(i)
+    else:
+        pass
