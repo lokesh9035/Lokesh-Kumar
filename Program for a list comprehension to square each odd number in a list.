@@ -1,0 +1,5 @@
+n=int(input('enter a number:'))
+a=[i for i in range(n)]
+x=[i*i for i in range(n) if i%2!=0 ]
+print(a)
+print(x)
