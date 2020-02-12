@@ -1,0 +1,17 @@
+up=int(input("up:"))
+down=int(input("down:"))
+left=int(input("left:"))
+right=int(input("right:"))
+count1=0
+count2=0
+count3=0
+count4=0
+count1=count1+up
+count2=count2+down
+count3=count3+left
+count4=count4+right
+y=count1-count2
+x=count3-count4
+print("position is:",(x,y))
+d=(x**2+y**2)**0.5
+print("distance from starting point is:",int(d))
