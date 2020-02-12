@@ -1,0 +1,3 @@
+def Age(A):
+    print("my age is " + str(A) + " years")
+Age(12)
