@@ -1,0 +1,5 @@
+def details(x):
+    a= str(input("enter your full name:"))
+    b=str(input("enter your age:"))
+    c=str(input("enter your qualification:"))
+    print("Full Name: " +str(a)+ "\nAge: "+str(b)+"\nQual: "+str(c))
