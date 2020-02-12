@@ -1,0 +1,7 @@
+a=input('enter a string:')
+b=a.split()
+c=[]
+for i in b:
+    c.append(b.count(i))
+
+print("Pairs\n" + str(list(zip(b, c)))) 
