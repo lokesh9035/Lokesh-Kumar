@@ -1,0 +1,10 @@
+x=["I", "You"]
+y=["Play", "Love"]
+z=["Hockey","Football"]
+random.shuffle(x)
+random.shuffle(z)
+random.shuffle(y)
+for i in range(0,len(x)):
+    for j in range(0,len(y)):
+        for k in range(0,len(z)):
+            print(x[i],y[j],z[k])
