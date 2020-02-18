@@ -1,0 +1,7 @@
+class American():
+    def __init__(self,nationality):
+        self.nationality=nationality
+class newyorker(American):
+    def __init__(self,nationality,Native):
+        self.Native=Native
+        American.__init__(self,nationality)
