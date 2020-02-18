@@ -1,0 +1,14 @@
+import numpy as np
+def graddecent():
+    iter=1000
+    n=5
+    mi=bi=0
+    lr=0.05
+    for i in range(iter):
+        yp=mi*(x)+bi
+        cost=np.array((1/n)*sum([val*2 for val in (yp-Y)]))
+        dm=sum((2/n)*(yp-Y)*x)
+        db=sum((2/n)*(yp-Y))
+        mi=mi-(lr*dm)
+        bi=bi-(lr*db)
+        print("m {} b {} iterations {} cost {}".format(mi,bi,i,cost))
