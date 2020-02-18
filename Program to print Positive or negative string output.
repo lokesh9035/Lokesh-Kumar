@@ -1,0 +1,6 @@
+a=str(input("enter yes/no:"))
+b=a.lower()
+if b=="yes":
+    print("yes")
+else:
+    print("no")
