@@ -1,0 +1,7 @@
+def sq_num():
+    a=list(range(1,21))
+    n={}
+    for i in a:
+        n[i]=0
+        n[i]=i*i
+    print(n)
