@@ -1,0 +1,7 @@
+class circle():
+    pi=3.14
+    def __init__(self,radius):
+        self.radius=radius
+class area(circle):
+    def __init__(self,radius):
+        print("the area of circle is:",2*self.pi*radius)
